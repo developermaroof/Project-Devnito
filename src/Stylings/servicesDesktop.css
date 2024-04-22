@@ -1,0 +1,9 @@
+.content {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+  opacity: 0;
+  transition: 0.1s;
+  backdrop-filter: blur(10px);
+}
+.content:hover {
+  opacity: 1;
+}

@@ -1,0 +1,12 @@
+export { default as Navbar } from "./Navbar";
+export { default as Banner } from "./Banner";
+export { default as Brands } from "./Brands";
+export { default as Awards } from "./Awards";
+export { default as Achievements } from "./Achievements";
+export { default as Projects } from "./Projects";
+export { default as Skills } from "./Skills";
+export { default as Contact } from "./Contact";
+export { default as Services } from "./Services";
+export { default as Clients } from "./Clients";
+export { default as Trends } from "./Trends";
+export { default as Footer } from "./Footer";

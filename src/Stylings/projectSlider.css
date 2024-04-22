@@ -1,0 +1,21 @@
+/* Style the carousel buttons */
+.react-multiple-carousel__arrow {
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  z-index: 1; /* Ensure arrows appear above carousel content */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Style the previous arrow */
+.react-multiple-carousel__arrow--left {
+  left: 10px; /* Adjust the left position as needed */
+}
+
+/* Style the next arrow */
+.react-multiple-carousel__arrow--right {
+  right: 10px; /* Adjust the right position as needed */
+}
