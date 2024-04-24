@@ -17,7 +17,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App xl:max-w-screen-xl xl:fixed xl:left-0  xl:right-0 xl:top-0 xl:bottom-0 xl:overflow-auto xl:mx-auto">
+    <div className="App ">
       <Navbar />
       <Banner />
       <Brands />

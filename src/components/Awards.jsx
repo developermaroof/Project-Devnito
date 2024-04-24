@@ -14,7 +14,7 @@ import Web from "../assets/awards/web-excellence-award.webp";
 
 const Awards = () => {
   return (
-    <div>
+    <div className="xl:max-w-screen-xl xl:mx-auto">
       <AwardSlider>
         <div className="flex justify-center items-center text-center flex-col text-xs">
           <img src={Horizon} alt="" className="w-44 h-auto" />

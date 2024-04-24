@@ -4,12 +4,14 @@ import SkillsDesktop from "../miniComponents/SkillsDesktop";
 
 const Skills = () => {
   return (
-    <div>
-      <div className="md:hidden">
-        <SkillsMobile />
-      </div>
-      <div className="hidden md:block">
-        <SkillsDesktop />
+    <div className="bg-gray-100">
+      <div className="xl:max-w-screen-xl xl:mx-auto">
+        <div className="md:hidden">
+          <SkillsMobile />
+        </div>
+        <div className="hidden md:block">
+          <SkillsDesktop />
+        </div>
       </div>
     </div>
   );

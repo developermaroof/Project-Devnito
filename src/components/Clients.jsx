@@ -4,7 +4,7 @@ import "../Stylings/client.css";
 
 const Clients = () => {
   return (
-    <div className="w-full h-auto p-4">
+    <div className="w-full h-auto p-4 xl:max-w-screen-xl xl:mx-auto">
       <div>
         <h1 className="py-4 text-3xl text-center font-bold md:text-4xl md:pb-20 lg:text-5xl lg:text-gray-800">
           Our Clients Love Our Work!
