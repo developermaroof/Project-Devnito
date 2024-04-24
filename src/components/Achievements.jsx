@@ -20,7 +20,7 @@ const Achievements = () => {
             table.
           </p>
           <button className="p-2 text-sm text-center bg-primary w-32  text-white rounded lg:p-3  lg:w-36">
-            LET'S TALK
+            <a href="https://www.linkedin.com/company/devnito/">LET'S TALK</a>
           </button>
         </div>
       </div>

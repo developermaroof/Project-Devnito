@@ -12,7 +12,7 @@ const Trends = () => {
           <span className="text-primary"> IT solutions</span>
         </h1>
         <button className="bg-primary text-white px-5 py-2 mb-8 mt-2 text-sm rounded md:text-lg md:px-12">
-          DOWNLOAD NOW!
+          VIEW NOW!
         </button>
       </div>
       <div>

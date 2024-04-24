@@ -13,7 +13,9 @@ const Contact = () => {
         </p>
         <div>
           <button className="border-2 rounded-full text-sm font-semibold py-2 my-2 w-48  justify-center">
-            Book A Quick Call!
+            <a href="https://www.linkedin.com/company/devnito/">
+              Book A Quick Call!
+            </a>
           </button>
         </div>
         <p className="text-sm">

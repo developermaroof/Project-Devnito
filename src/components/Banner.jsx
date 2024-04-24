@@ -20,7 +20,7 @@ const Banner = () => {
           to new heights.
         </p>
         <button className="bg-primary rounded-md py-1 px-8  sm:py-2 sm:w-44">
-          LET'S TALK
+          <a href="https://www.linkedin.com/company/devnito/">LET'S TALK</a>
         </button>
       </div>
 

@@ -58,7 +58,7 @@ const Navbar = () => {
           </a>
         </div>
         <button className="hidden md:block lg:py-3 bg-primary text-white uppercase rounded-md text-xs  py-2 px-4">
-          Get a Proposal
+          <a href="https://www.linkedin.com/company/devnito/">Get a Proposal</a>
         </button>
         <div className="flex md:hidden space-x-4">
           {/* Show on screens smaller than md (medium) */}
