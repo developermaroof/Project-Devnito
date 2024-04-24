@@ -7,10 +7,17 @@ const Navbar = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <nav className="bg-black px-4 sm:px-8 lg:px-20 xl:px-28 font-sans font-medium sticky top-0 z-50">
       <div className="flex mx-auto justify-between items-center py-1">
-        <a href="#Bannerr">
+        <a href="#top" onClick={scrollToTop}>
           <img
             className="w-24 h-auto sm:w-28 lg:w-32 cursor-pointer filter invert"
             src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=448,fit=crop,q=95/Yg2L97XkEKFBOPbq/inline-mxB86Dv8WJTN9WL4.png"
