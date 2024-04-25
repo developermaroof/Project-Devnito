@@ -5,7 +5,7 @@ import SkillsDesktop from "../miniComponents/SkillsDesktop";
 const Skills = () => {
   return (
     <div className="bg-gray-100">
-      <div className="xl:max-w-screen-xl xl:mx-auto">
+      <div id="technologies" className="xl:max-w-screen-xl xl:mx-auto">
         <div className="md:hidden">
           <SkillsMobile />
         </div>

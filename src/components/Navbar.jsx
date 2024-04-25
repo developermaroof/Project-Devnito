@@ -14,6 +14,15 @@ const Navbar = () => {
     });
   };
 
+  const smoothScrollTo = (ref) => {
+    const element = document.getElementById(ref);
+    const scrollTop = element.offsetTop;
+    window.scrollTo({
+      top: scrollTop,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="bg-black sticky top-0 z-50">
       <nav className=" px-4 sm:px-8 lg:px-20 xl:px-28 font-sans font-medium   xl:max-w-screen-xl xl:mx-auto">
@@ -31,36 +40,49 @@ const Navbar = () => {
             <a
               href="#home"
               className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={scrollToTop}
             >
               Home
             </a>
             <a
-              href="#about"
+              href="#projects"
               className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={() => smoothScrollTo("projects")}
             >
-              About
+              Projects
             </a>
             <a
               href="#services"
               className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={() => smoothScrollTo("services")}
             >
               Services
             </a>
             <a
               href="#solution"
               className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={() => smoothScrollTo("solution")}
             >
               Solution
             </a>
             <a
               href="#technologies"
               className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={() => smoothScrollTo("technologies")}
             >
               Technologies
             </a>
             <a
+              href="#contact"
+              className="hover:text-primary text-white text-xs lg:text-sm"
+              onClick={() => smoothScrollTo("contact")}
+            >
+              Contact
+            </a>
+            <a
               href="#location"
               className="hover:text-primary text-white text-xs  lg:text-sm"
+              onClick={() => smoothScrollTo("location")}
             >
               Location
             </a>
@@ -118,25 +140,53 @@ const Navbar = () => {
             </svg>
           </div>
           <div className="flex flex-col items-center mt-20 xl:max-w-screen-xl xl:mx-auto">
-            <a href="#home" className="hover:text-primary text-white py-4">
+            <a
+              href="#home"
+              className="hover:text-primary text-white py-4"
+              onClick={scrollToTop}
+            >
               Home
             </a>
-            <a href="#about" className="hover:text-primary text-white py-4">
-              About
+            <a
+              href="#projects"
+              className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("projects")}
+            >
+              Projects
             </a>
-            <a href="#services" className="hover:text-primary text-white py-4">
+            <a
+              href="#services"
+              className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("services")}
+            >
               Services
             </a>
-            <a href="#solution" className="hover:text-primary text-white py-4">
+            <a
+              href="#solution"
+              className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("solution")}
+            >
               Solution
             </a>
             <a
               href="#technologies"
               className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("technologies")}
             >
               Technologies
             </a>
-            <a href="#location" className="hover:text-primary text-white py-4">
+            <a
+              href="#contact"
+              className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("contact")}
+            >
+              Contact
+            </a>
+            <a
+              href="#location"
+              className="hover:text-primary text-white py-4"
+              onClick={() => smoothScrollTo("location")}
+            >
               Location
             </a>
           </div>

@@ -4,7 +4,7 @@ import ServicesDesktop from "../miniComponents/ServicesDesktop";
 
 const Services = () => {
   return (
-    <div className="xl:max-w-screen-xl xl:mx-auto">
+    <div id="services" className="xl:max-w-screen-xl xl:mx-auto">
       <div className="md:hidden">
         <ServicesMobile />
       </div>

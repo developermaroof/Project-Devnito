@@ -9,8 +9,9 @@ const ServicesDesktop = () => {
           <img
             src="https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
-            className="object-cover w-full h-96"
+            className="object-cover w-full h-96 opacity-90 "
           />
+          <div className="bg-black bg-opacity-50 w-full h-96 absolute top-0 left-0"></div>
 
           <div className="md:hidden lg:block lg:flex lg:flex-col lg:items-center lg:justify-end lg:w-36 lg:mt-6 lg:justify-start lg:absolute lg:left-2 lg:bottom-6">
             <svg
@@ -119,8 +120,9 @@ const ServicesDesktop = () => {
           <img
             src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
-            className="object-cover w-full h-96"
+            className="object-cover w-full h-96 opacity-90 "
           />
+          <div className="bg-black bg-opacity-50 w-full h-96 absolute top-0 left-0"></div>
           <div className="md:hidden lg:block lg:flex lg:flex-col lg:items-center lg:mt-6 lg:w-40 lg:justify-start lg:absolute lg:left-2 lg:bottom-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -189,8 +191,9 @@ const ServicesDesktop = () => {
           <img
             src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
-            className="object-cover w-full h-96"
+            className="object-cover w-full h-96 opacity-90 "
           />
+          <div className="bg-black bg-opacity-50 w-full h-96 absolute top-0 left-0"></div>
           <div className="md:hidden lg:block lg:flex lg:flex-col lg:items-center lg:w-36 lg:mt-6 lg:justify-start lg:absolute lg:left-2 lg:bottom-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -266,8 +269,9 @@ const ServicesDesktop = () => {
           <img
             src="https://images.pexels.com/photos/3415148/pexels-photo-3415148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt=""
-            className="object-cover w-full h-96"
+            className="object-cover w-full h-96 opacity-90 "
           />
+          <div className="bg-black bg-opacity-50 w-full h-96 absolute top-0 left-0"></div>
           <div className="md:hidden lg:block lg:flex lg:flex-col lg:items-center lg:w-36 lg:mt-6 lg:justify-start lg:absolute lg:left-2 lg:bottom-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"

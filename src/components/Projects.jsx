@@ -5,7 +5,7 @@ import "../Stylings/projectSlider.css";
 const Projects = () => {
   return (
     <div className="bg-gray-100">
-      <div className=" xl:max-w-screen-xl xl:mx-auto">
+      <div id="projects" className=" xl:max-w-screen-xl xl:mx-auto">
         <ProjectSlider>
           <div className="gap-8  flex flex-col p-4 md:flex-row md:justify-center md:items-center">
             <div className="py-4 ">

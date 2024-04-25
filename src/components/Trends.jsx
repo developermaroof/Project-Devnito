@@ -4,7 +4,10 @@ import "../Stylings/trends.css";
 const Trends = () => {
   return (
     <div className="gradient">
-      <div className=" px-4 py-8 md:flex md:items-center lg:px-20 xl:max-w-screen-xl xl:mx-auto">
+      <div
+        id="solution"
+        className=" px-4 py-8 md:flex md:items-center lg:px-20 xl:max-w-screen-xl xl:mx-auto"
+      >
         <div>
           <h2 className="font-semibold text-lg md:text-xl">DIGITAL TRENDS</h2>
           <div className="hidden md:block bg-primary w-72 h-0.5 my-2"></div>
