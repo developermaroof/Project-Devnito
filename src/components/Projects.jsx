@@ -7,22 +7,20 @@ const Projects = () => {
     <div className="bg-gray-100">
       <div id="projects" className=" xl:max-w-screen-xl xl:mx-auto">
         <ProjectSlider>
-          <div className="gap-8  flex flex-col p-4 md:flex-row md:justify-center md:items-center">
-            <div className="py-4 ">
+          {/*  */}
+          <div className="gap-8  flex flex-col py-8 px-20 md:flex-row justify-center items-center">
+            <div className="py-4 w-full">
               <img
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=861,h=546,fit=crop/Yg2L97XkEKFBOPbq/26-YD084rB50zHoWJgv.png"
+                src="https://cdn.sanity.io/images/fxul9ln3/production/4443646bac70015c710729ae2d8b945c11f7bdd1-1920x1080.png"
                 alt=""
               />
             </div>
-            <div>
-              <h1 className="text-2xl text-gray-700 font-bold">MenaJobs.io</h1>
-              <p className="py-4 text-sm">
-                We led MenaJobs.io's development, shaping it into a
-                user-friendly job portal. My work spanned planning, design,
-                coding, and optimization—the result: a trusted platform
-                connecting job seekers and employers in the MENA region.
-                Mobile-friendly, secure, and performance-driven, it's now a
-                go-to resource for career growth.
+            <div className="w-full">
+              <h1 className="text-2xl text-gray-700 font-bold">
+                Buy It Ecommerce Store
+              </h1>
+              <p className="py-4 font-bold text-sm">
+                Ecommerce / Stripe Payments
               </p>
               <h6 className="text-sm font-semibold">Challenges Faced</h6>
               <ul className="px-4 text-xs list-disc my-2">
@@ -43,22 +41,20 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="gap-8  flex flex-col p-4 md:flex-row md:justify-center md:items-center">
-            <div className="py-6">
+          {/*  */}
+          <div className="gap-8  flex flex-col py-8 px-20 md:flex-row justify-center items-center">
+            <div className="py-4 w-full">
               <img
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=861,h=546,fit=crop/Yg2L97XkEKFBOPbq/27-ALpBo87Gx5Ua9oLz.png"
+                src="https://cdn.sanity.io/images/fxul9ln3/production/e457e4b166e7b4ad527d8c8a723e35253659670c-1920x1080.png"
                 alt=""
               />
             </div>
-            <div>
-              <h1 className="text-2xl text-gray-700 font-bold">APK-Hub</h1>
-              <p className="py-6 text-sm">
-                As the developer of APK-Hub, I crafted a user-friendly platform
-                for discovering and exploring apps and games from the Play
-                Store. My work spans design, search enhancements, mobile
-                responsiveness, and security measures. APK-Hub is now a trusted
-                resource, attracting a growing user base and delivering a
-                top-tier user experience.
+            <div className="w-full">
+              <h1 className="text-2xl text-gray-700 font-bold">
+                Memories Social Media App
+              </h1>
+              <p className="py-4 font-bold text-sm">
+                Social Media / Management
               </p>
               <h6 className="text-sm font-semibold">Challenges Faced</h6>
               <ul className="px-4 text-xs list-disc my-2">
@@ -81,24 +77,20 @@ const Projects = () => {
               </button>
             </div>
           </div>
-          <div className="gap-8  flex flex-col p-4  md:flex-row md:justify-center md:items-center">
-            <div className="py-4">
+          {/*  */}
+          <div className="gap-8  flex flex-col py-8 px-20 md:flex-row justify-center items-center">
+            <div className="py-4 w-full">
               <img
-                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=945,h=599,fit=crop,trim=0;109.63396778916545;0;109.63396778916545/Yg2L97XkEKFBOPbq/15-AVL3bP1XOMSl983l.png"
+                src="https://cdn.sanity.io/images/fxul9ln3/production/56d74a8100b504dec86bc299f0fd01f152ab2a4f-1920x1080.png"
                 alt=""
               />
             </div>
-            <div>
+            <div className="w-full">
               <h1 className="text-2xl text-gray-700 font-bold">
-                Blend (Report Management System)
+                Diaries Manager
               </h1>
-              <p className="py-4 text-sm">
-                As our Report Management System developer, I've created a
-                user-friendly platform for generating and customizing reports.
-                My work spans design, data integration, security, and feedback
-                mechanisms, resulting in an efficient tool for data-driven
-                decision-making, enhancing productivity, and improving user
-                experience.
+              <p className="py-4 font-bold text-sm">
+                Productivity / Management
               </p>
               <h6 className="text-sm font-semibold">Challenges Faced</h6>
               <ul className="px-4 text-xs list-disc my-2">
@@ -122,6 +114,7 @@ const Projects = () => {
               </button>
             </div>
           </div>
+          {/*  */}
         </ProjectSlider>
       </div>
     </div>

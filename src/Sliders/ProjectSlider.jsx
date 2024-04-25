@@ -31,8 +31,8 @@ const ProjectSlider = ({ deviceType, children }) => {
         responsive={responsive}
         ssr={true}
         infinite={true}
-        autoPlay={true}
-        autoPlaySpeed={4000}
+        // autoPlay={true}
+        // autoPlaySpeed={4000}
         keyBoardControl={true}
         customTransition="all .5s ease-in-out"
         transitionDuration={500}
