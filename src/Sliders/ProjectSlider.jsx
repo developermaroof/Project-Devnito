@@ -27,7 +27,7 @@ const ProjectSlider = ({ deviceType, children }) => {
         swipeable={true}
         partialVisible={false}
         draggable={true}
-        showDots={false}
+        showDots={true}
         responsive={responsive}
         ssr={true}
         infinite={true}
@@ -45,7 +45,7 @@ const ProjectSlider = ({ deviceType, children }) => {
       >
         {React.Children.map(children, (child, index) => (
           <div className="w-full " key={index}>
-            <div className="h-full">{child}</div>
+            <div className="h-full ">{child}</div>
           </div>
         ))}
       </Carousel>

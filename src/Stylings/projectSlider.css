@@ -19,3 +19,15 @@
 .react-multiple-carousel__arrow--right {
   right: 10px; /* Adjust the right position as needed */
 }
+
+@media screen and (min-width: 300px) and (max-width: 430px) {
+  .changePadding {
+    padding: 20px 30px;
+  }
+  .changeWidth {
+    width: 250px;
+  }
+  .changeH1Font {
+    font-size: 20px;
+  }
+}
