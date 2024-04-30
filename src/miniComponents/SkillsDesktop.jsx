@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const SkillsDesktop = () => {
-  const [activeSection, setActiveSection] = useState("frontend");
+  const [activeSection, setActiveSection] = useState("pernStackDevelopment");
 
   const toggleVisibility = (section) => {
     setActiveSection(section === activeSection ? null : section);
@@ -25,63 +25,103 @@ const SkillsDesktop = () => {
           </p>
         </div>
       </div>
-      <div className="flex mt-8 justify-center text-center items-center gap-10 lg:justify-start lg:pl-8 lg:gap-16">
+      <div className="overflow-scroll flex mt-8  items-center gap-10 lg:justify-start lg:pl-8 lg:gap-16">
         <div>
           <h2
             className={`font-bold text-md text-skillsHeading cursor-pointer lg:text-lg ${
-              activeSection === "frontend" ? "text-orange-600" : ""
+              activeSection === "pernStackDevelopment" ? "text-orange-600" : ""
             }`}
-            onClick={() => toggleVisibility("frontend")}
+            onClick={() => toggleVisibility("pernStackDevelopment")}
           >
-            Front-end
+            PERN Stack Development
           </h2>
         </div>
         <div>
           <h2
             className={`font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "backend" ? "text-orange-600" : ""
+              activeSection === "jamStackDevelopment" ? "text-orange-600" : ""
             }`}
-            onClick={() => toggleVisibility("backend")}
+            onClick={() => toggleVisibility("jamStackDevelopment")}
           >
-            Back-end
+            JAM Stack Development
           </h2>
         </div>
         <div>
           <h2
             className={`font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "databases" ? "text-orange-600" : ""
+              activeSection === "frontendDevelopment" ? "text-orange-600" : ""
             }`}
-            onClick={() => toggleVisibility("databases")}
+            onClick={() => toggleVisibility("frontendDevelopment")}
           >
-            Databases
+            Frontend Development
           </h2>
         </div>
         <div>
           <h2
             className={`font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "tools" ? "text-orange-600" : ""
+              activeSection === "mernStackDevelopment" ? "text-orange-600" : ""
             }`}
-            onClick={() => toggleVisibility("tools")}
+            onClick={() => toggleVisibility("mernStackDevelopment")}
           >
-            Tools
+            MERN Stack Development
           </h2>
         </div>
         <div>
           <h2
             className={`font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "operatingSystems" ? "text-orange-600" : ""
+              activeSection === "web3.0DAppDevelopment" ? "text-orange-600" : ""
             }`}
-            onClick={() => toggleVisibility("operatingSystems")}
+            onClick={() => toggleVisibility("web3.0DAppDevelopment")}
           >
-            Operating Systems
+            Web 3.0 DApp Development
+          </h2>
+        </div>
+        <div>
+          <h2
+            className={`font-bold text-md text-skillsHeading cursor-pointer ${
+              activeSection === "excelToWebConversion" ? "text-orange-600" : ""
+            }`}
+            onClick={() => toggleVisibility("excelToWebConversion")}
+          >
+            Excel to Web Conversion
+          </h2>
+        </div>
+        <div>
+          <h2
+            className={`font-bold text-md text-skillsHeading cursor-pointer ${
+              activeSection === "web3.0NFTListing" ? "text-orange-600" : ""
+            }`}
+            onClick={() => toggleVisibility("web3.0NFTListing")}
+          >
+            Web 3.0 NFT Listing
+          </h2>
+        </div>
+        <div>
+          <h2
+            className={`font-bold text-md text-skillsHeading cursor-pointer ${
+              activeSection === "openAIIntegration" ? "text-orange-600" : ""
+            }`}
+            onClick={() => toggleVisibility("openAIIntegration")}
+          >
+            OpenAI Integration
+          </h2>
+        </div>
+        <div>
+          <h2
+            className={`font-bold text-md text-skillsHeading cursor-pointer ${
+              activeSection === "ecommerceDevelopment" ? "text-orange-600" : ""
+            }`}
+            onClick={() => toggleVisibility("ecommerceDevelopment")}
+          >
+            Ecommerce Development
           </h2>
         </div>
       </div>
       <div className="mt-3 w-full h-0.5 bg-gray-300"></div>
-      <div className="mt-4">
+      <div className=" overflow-scroll mt-4">
         {activeSection && (
           <ul className="px-4 text-sm my-2 flex gap-8">
-            {activeSection === "frontend" && (
+            {activeSection === "pernStackDevelopment" && (
               <>
                 <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
                   HTML & CSS
@@ -110,7 +150,7 @@ const SkillsDesktop = () => {
                 </li>
               </>
             )}
-            {activeSection === "backend" && (
+            {activeSection === "jamStackDevelopment" && (
               <>
                 <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
                   Node.js
@@ -141,7 +181,7 @@ const SkillsDesktop = () => {
                 </li>
               </>
             )}
-            {activeSection === "databases" && (
+            {activeSection === "frontendDevelopment" && (
               <>
                 <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
                   MySQL
@@ -164,7 +204,7 @@ const SkillsDesktop = () => {
                 </li>
               </>
             )}
-            {activeSection === "tools" && (
+            {activeSection === "mernStackDevelopment" && (
               <>
                 <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
                   Sublime Text
@@ -195,7 +235,59 @@ const SkillsDesktop = () => {
                 </li>
               </>
             )}
-            {activeSection === "operatingSystems" && (
+            {activeSection === "web3.0DAppDevelopment" && (
+              <>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Microsoft Windows
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  macOS
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Linux
+                </li>
+              </>
+            )}
+            {activeSection === "excelToWebConversion" && (
+              <>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Microsoft Windows
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  macOS
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Linux
+                </li>
+              </>
+            )}
+            {activeSection === "web3.0NFTListing" && (
+              <>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Microsoft Windows
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  macOS
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Linux
+                </li>
+              </>
+            )}
+            {activeSection === "openAIIntegration" && (
+              <>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Microsoft Windows
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  macOS
+                </li>
+                <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
+                  Linux
+                </li>
+              </>
+            )}
+            {activeSection === "ecommerceDevelopment" && (
               <>
                 <li className="font-semibold bg-white w-full p-2 text-skillsHeading text-center">
                   Microsoft Windows

@@ -4,7 +4,7 @@ import "../Stylings/client.css";
 
 const Clients = () => {
   return (
-    <div className="w-full h-auto p-4 xl:max-w-screen-xl xl:mx-auto">
+    <div className="overflow-hidden w-full h-auto px-4 xl:max-w-screen-xl xl:mx-auto">
       <div>
         <h1 className="py-4 text-3xl text-center font-bold md:text-4xl md:pb-20 lg:text-5xl lg:text-gray-800">
           Our Clients Love Our Work!
@@ -12,8 +12,8 @@ const Clients = () => {
       </div>
       <ClientSlider>
         {/* 1st Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Denzil
             </h2>
@@ -30,8 +30,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 2nd Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Micheal
             </h2>
@@ -45,8 +45,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 3rd Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Tayler
             </h2>
@@ -61,8 +61,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 4th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               sathyamoorthyv
             </h2>
@@ -75,8 +75,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 5th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Ayub
             </h2>
@@ -92,8 +92,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 6th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Ahmed
             </h2>
@@ -110,8 +110,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 7th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               worldwidefame
             </h2>
@@ -124,8 +124,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 8th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               dgaa1991
             </h2>
@@ -139,8 +139,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 9th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Walid
             </h2>
@@ -153,8 +153,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 10th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Arslan
             </h2>
@@ -171,8 +171,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 10th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Leo Matter
             </h2>
@@ -187,8 +187,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 11th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Kuba
             </h2>
@@ -210,8 +210,8 @@ const Clients = () => {
           </div>
         </div>
         {/* 12th Client */}
-        <div className="md:flex md:gap-10">
-          <div>
+        <div className="gap-8 changePadding  md:px-20  flex flex-col   justify-center items-center">
+          <div className="changeWidth px-4 shadow-md gap-8    justify-center items-center">
             <h2 className="font-bold text-xl py-2 pt-4 md:text-2xl lg:text-3xl lg:text-gray-800">
               Babu
             </h2>

@@ -3,7 +3,14 @@
   width: 100%;
   height: 100%;
 }
-
+@media screen and (min-width: 300px) and (max-width: 430px) {
+  .changePadding {
+    padding: 20px 30px;
+  }
+  .changeWidth {
+    width: 250px;
+  }
+}
 @media screen and (min-width: 400px) and (max-width: 768px) {
   .iframe {
     width: 100%;

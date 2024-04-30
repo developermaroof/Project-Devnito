@@ -27,7 +27,7 @@ const ClientSlider = ({ deviceType, children }) => {
         swipeable={true}
         partialVisible={false}
         draggable={true}
-        showDots={false}
+        showDots={true}
         responsive={responsive}
         ssr={true}
         infinite={true}
