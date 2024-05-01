@@ -44,7 +44,6 @@ const SkillsMobile = () => {
       </h2>
       <ul className="px-4 text-sm list-disc my-2">
         <li>HTML</li>
-
         <li>CSS</li>
         <li>Sass</li>
         <li>ReactJs</li>

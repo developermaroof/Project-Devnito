@@ -1,3 +1,23 @@
 html {
   scroll-behavior: smooth;
 }
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ef5123;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ef5123;
+}
