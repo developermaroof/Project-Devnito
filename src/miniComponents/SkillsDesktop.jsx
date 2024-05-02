@@ -3,11 +3,9 @@ import "../Stylings/Skills.css";
 
 const SkillsDesktop = () => {
   const [activeSection, setActiveSection] = useState("pernStackDevelopment");
-
   const toggleVisibility = (section) => {
-    setActiveSection(section === activeSection ? null : section);
+    setActiveSection(activeSection === section ? null : section);
   };
-
   return (
     <div className="bg-gray-100 p-4 overflow-scroll">
       <div className="flex justify-center items-center w-full gap-10 lg:gap-0 lg:px-8">
@@ -131,7 +129,7 @@ const SkillsDesktop = () => {
                   PostgreSQL
                 </li>
                 <li className="font-semibold bg-white w-full h-full p-2 text-skillsHeading text-center">
-                  Express.jst
+                  Express.js
                 </li>
                 <li className="font-semibold bg-white w-full h-full p-2 text-skillsHeading text-center">
                   Node.js

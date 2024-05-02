@@ -1,6 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    number: "",
+    description: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    emailjs.init("Fdw9Lui_H7KZO3dgw");
+
+    const { fullName, email, number, description } = formData;
+
+    if (!fullName || !email || !number || !description) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+    try {
+      const response = await emailjs.send(
+        "service_siope3o",
+        "template_695wyk8",
+        {
+          from_name: fullName,
+          to_email: email,
+          message: description,
+          reply_to: email,
+        }
+      );
+      console.log("SUCCESS!", response.status, response.text);
+      alert("Your message has been sent!");
+      setFormData({
+        fullName: "",
+        email: "",
+        number: "",
+        description: "",
+      });
+    } catch (error) {
+      console.log("FAILED...", error, error.text);
+    }
+  };
   return (
     <div id="location" className="bg-black">
       <div className=" xl:max-w-screen-xl xl:mx-auto">
@@ -39,29 +86,13 @@ const Footer = () => {
             <p className="text-sm md:text-md lg:text-lg">
               Let’s discuss your project and find out how we can help you scale!
             </p>
-            <form
-              className="mt-4 flex flex-col"
-              onSubmit={(e) => {
-                e.preventDefault();
-                const formData = new FormData(e.target);
-                const fullName = formData.get("fullName");
-                const email = formData.get("email");
-                const number = formData.get("number");
-                const description = formData.get("description");
-
-                if (!fullName || !email || !number || !description) {
-                  alert("Please fill in all required fields.");
-                  return;
-                }
-                alert(
-                  `Full Name: ${fullName}\nEmail: ${email}\nNumber: ${number}\nDescription: ${description}`
-                );
-              }}
-            >
+            <form className="mt-4 flex flex-col" onSubmit={handleSubmit}>
               <input
                 type="text"
                 name="fullName"
                 placeholder="Full Name"
+                value={formData.fullName}
+                onChange={handleChange}
                 required
                 className="border-b border-white outline-none placeholder-gray-900 text-sm py-2 w-full bg-transparent md:mt-4 md:text-md lg:text-lg"
               />
@@ -69,6 +100,8 @@ const Footer = () => {
                 type="email"
                 name="email"
                 placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
                 required
                 className="border-b border-white outline-none placeholder-gray-900 text-sm py-2 w-full bg-transparent md:mt-4 md:text-md lg:text-lg"
               />
@@ -76,12 +109,16 @@ const Footer = () => {
                 type="number"
                 name="number"
                 placeholder="Number"
+                value={formData.number}
+                onChange={handleChange}
                 required
                 className="border-b border-white outline-none placeholder-gray-900 text-sm py-2 w-full bg-transparent md:mt-4 md:text-md lg:text-lg"
               />
               <textarea
                 name="description"
                 placeholder="Description"
+                value={formData.description}
+                onChange={handleChange}
                 required
                 className="border-b border-white outline-none placeholder-gray-900 text-sm py-2 w-full bg-transparent md:mt-4 md:text-md lg:text-lg"
                 rows="4"
