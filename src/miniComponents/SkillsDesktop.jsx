@@ -28,7 +28,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "pernStackDevelopment" ? "text-orange-600" : ""
+              activeSection === "pernStackDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("pernStackDevelopment")}
           >
@@ -38,7 +38,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "jamStackDevelopment" ? "text-orange-600" : ""
+              activeSection === "jamStackDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("jamStackDevelopment")}
           >
@@ -48,7 +48,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "frontendDevelopment" ? "text-orange-600" : ""
+              activeSection === "frontendDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("frontendDevelopment")}
           >
@@ -58,7 +58,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "mernStackDevelopment" ? "text-orange-600" : ""
+              activeSection === "mernStackDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("mernStackDevelopment")}
           >
@@ -68,7 +68,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "web3.0DAppDevelopment" ? "text-orange-600" : ""
+              activeSection === "web3.0DAppDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("web3.0DAppDevelopment")}
           >
@@ -78,7 +78,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "excelToWebConversion" ? "text-orange-600" : ""
+              activeSection === "excelToWebConversion" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("excelToWebConversion")}
           >
@@ -88,7 +88,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "web3.0NFTListing" ? "text-orange-600" : ""
+              activeSection === "web3.0NFTListing" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("web3.0NFTListing")}
           >
@@ -98,7 +98,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "openAIIntegration" ? "text-orange-600" : ""
+              activeSection === "openAIIntegration" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("openAIIntegration")}
           >
@@ -108,7 +108,7 @@ const SkillsDesktop = () => {
         <div>
           <h2
             className={`hoverEffect font-bold text-md text-skillsHeading cursor-pointer ${
-              activeSection === "ecommerceDevelopment" ? "text-orange-600" : ""
+              activeSection === "ecommerceDevelopment" ? "text-orange-500" : ""
             }`}
             onClick={() => toggleVisibility("ecommerceDevelopment")}
           >
